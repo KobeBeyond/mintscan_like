@@ -28,6 +28,52 @@
   color: #61dafb;
 }
 
+.ant-layout-header {
+  background-color: aliceblue!important;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding-left: 0!important;
+}
+
+.ant-layout-footer {
+  background-color: aliceblue!important;
+}
+
+.logo {
+  /* flex: 1; */
+  width: 200px;
+  box-sizing: border-box;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.breadcrumb {
+  flex: 3;
+  margin-left: 20px;
+}
+
+.search-bar {
+  flex: 1;
+}
+
+.header-tab {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-btn {
+  
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

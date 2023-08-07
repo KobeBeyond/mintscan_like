@@ -1,0 +1,16 @@
+#nprogress .bar {
+    background: #121213;
+  }
+  
+  /* Fancy blur effect */
+  #nprogress .peg {
+    box-shadow: 0 0 10px #121213, 0 0 5px #121213;
+  }
+  
+  
+  #nprogress .spinner-icon {
+    border-top-color: #121213;
+    border-left-color: #121213;
+  }
+  
+  
